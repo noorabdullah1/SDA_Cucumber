@@ -9,8 +9,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = "stepdefinitions",
         features = "src/test/resources/features",
-        tags = "@mytag"
+        //features = "src/test/resources/features/dataTables.feature",
+
+        dryRun = true
 )
 public class Runner {
-
 }
